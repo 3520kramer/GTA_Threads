@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dee8a1a2-e6c3-4ee7-98fd-bb84ebc3cc49" name="Default Changelist" comment="" />
+    <list default="true" id="dee8a1a2-e6c3-4ee7-98fd-bb84ebc3cc49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gta_concurrency/kramer/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gta_concurrency/kramer/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gta_concurrency/kramer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gta_concurrency/kramer/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kramer/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kramer/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kramer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kramer/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +23,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="923" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1W1D96Nf53cNS4Lpl2pqSMgF9yf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568875668890" />
@@ -38,7 +46,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CounterMain">
+    <configuration name="CounterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kramer.Counter.CounterMain" />
+      <module name="gta_concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kramer.Counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="kramer.Main" />
       <module name="gta_concurrency" />
@@ -62,13 +83,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SleepMessages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kramer.test.SleepMessages" />
+      <module name="gta_concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kramer.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.SimpleThreads" />
+      <item itemvalue="Application.SleepMessages" />
+      <item itemvalue="Application.CounterMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CounterMain" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SleepMessages" />
         <item itemvalue="Application.SimpleThreads" />
       </list>
     </recent_temporary>
@@ -85,11 +123,25 @@
       <updated>1568718146913</updated>
       <workItem from="1568718148191" duration="12323000" />
       <workItem from="1570183883558" duration="618000" />
-      <workItem from="1578308054953" duration="261000" />
+      <workItem from="1578308054953" duration="8821000" />
+      <workItem from="1578352192067" duration="871000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
